@@ -1,0 +1,5 @@
+# mattpocock/skills 的唯一实体拷贝是 .agents/skills/。
+# .pi/skills/ 是 skills CLI 自动创建的 junction（Windows 目录链接），内容完全等同，
+# 若入库会让 git 跟着链接再提交一份重复文件，因此忽略。重新生成：见 ~/.pi/agent/prompts/matt.md
+.pi/skills/
+.claude/skills/
